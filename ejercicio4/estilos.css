@@ -1,0 +1,26 @@
+/* CSS styles */
+.last {
+    background: rgb(0, 0, 255);
+}
+.impares {
+    text-decoration: underline green;
+}
+.lista {
+    display: list-item;
+    align-self: center;
+    gap: 10px;
+    vertical-align: center;
+}
+.lista > li {
+    display: inline;
+}
+.ingles {
+    font-size: 200%;
+    text-transform: uppercase;
+}
+.provincias {
+    list-style-type: upper-roman;
+}
+.exception {
+    list-style-type: none;
+}

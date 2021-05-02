@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+  <body>
+    <form class="formulario" method="get" action=" ">
+      <fieldset class="firstlast">
+          <legend>Información Personal</legend>
+          <label for="fname">Nombre y apellidos</label><br>
+          <input type="text" id="fname" name="fname" autofocus required><br>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" size="40" required><br>
+          <label for="url">Url:</label><br>
+          <input type="url" id="url" name="url" placeholder="Escribe la URL de tu página web personal" size="40"><br>
+       </fieldset> 
+       <fieldset class="fieldset">
+          <legend>Fecha</legend>
+          <label for="fecha">Fecha</label><br>
+          <input type="date" id="fecha" name="fecha"><br>
+          <label for="time">Time</label><br>
+          <input type="time" id="time" name="time"><br>
+          <label for="datetime">Datetime</label><br>
+          <input type="datetime-local" id="datetime" name="datetime"><br>
+          <label for="month">Month</label><br>
+          <input type="month" id="month" name="month"><br>
+          <label for="week">Week:</label><br>
+          <input type="week" id="week" name="week"><br>
+      </fieldset>
+      <fieldset class="fieldset">
+          <legend>Contacto</legend>
+          <label for="numero">Número:</label><br>
+          <input type="number" id="numero" name="numero" min="-10" max="10"><br>
+          <label for="telefono">Telefono:</label><br>
+          <input type="tel" id="telefono" name="telefono" placeholder="xxx-xxxxxx" readonly><br>           
+      </fieldset>
+      <fieldset class="firstlast">
+          <legend>Detalles</legend>
+          <label for="buscar">Buscar:</label><br>
+          <input type="search" id="buscar" name="buscar" disabled><br>
+          <label for="color">Color:</label><br>
+          <input type="color" id="color" name="color"><br><br>
+          <input type="submit" value="Enviar formulario" class="button"><br>
+      </fieldset>
+    </form> 
+  </body>
+</html>
+
